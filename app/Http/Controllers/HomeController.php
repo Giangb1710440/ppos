@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+  
     public function home(){
         return view('customer.home');
     }
@@ -47,7 +48,7 @@ class HomeController extends Controller
 
     //tao đơn hàng mới
     public function createorder(){
-        return view('customer.createorder');
+        return view('customer.create_order');
     }
 
     //đơn hàng
